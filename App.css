@@ -1,0 +1,121 @@
+/* General Root Styling */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo Styles (for your logo) */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo Spin Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Modal Styling for Movie Details */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.bg-purple-700 {
+  background-color: #22f52d;
+}
+
+.text-white {
+  color: rgb(83, 5, 228);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff2dc3;
+  border-radius: 50%;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-opacity-50 {
+  background-color: rgba(227, 16, 16, 0.5);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
